@@ -1,0 +1,217 @@
+header{
+ background-color:#44abff;
+ color: rgb(13, 14, 29);
+ text-align: center;
+ padding: 50px;
+ font-family: "Google Sans Flex", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: weight;
+ font-style: normal;
+ font-variation-settings:
+ "slnt" 0,
+ "wdth" 100,
+ "GRAD" 0,
+ "ROND" 0;
+}
+
+
+
+main{
+color:rgb(13, 14, 29);
+text-align: left;
+padding: 50px;
+font-family: "Google Sans Flex", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:
+"slnt" 0,
+"wdth" 100,
+"GRAD" 0,
+"ROND" 0;
+}
+
+footer.transparent-text{
+color:#a9a9aa;
+text-align: center;
+padding: 50px;
+text-align: left;
+font-family: "Google Sans Flex", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:
+"slnt" 0,
+"wdth" 100,
+"GRAD" 0,
+"ROND" 0;
+}
+
+nav ul {
+list-style: none;      /* removes bullet points */
+padding: 0;
+ margin: 0;
+display: flex;         /* keeps links in a row */
+gap: 20px;             /* spacing between links */
+text-align: center;
+}
+
+nav ul li {
+display: inline;       /* makes each list item sit side-by-side */
+}
+
+nav ul li a {
+text-decoration: none; /* removes underline */
+color: inherit;        /* keeps your current colour */
+font-weight: bold;     /* matches your screenshot */
+}
+
+nav ul {
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-items: center;
+gap: 10px;
+margin: 0 auto;
+
+}
+
+nav ul li {
+
+display: inherit;
+padding: 10px 20px;
+border: none;
+
+}
+
+nav ul li a{
+font-size: 18px;
+color:rgb(13, 14, 29);
+text-decoration: none;
+font-family: "Google Sans Flex", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:
+"slnt" 0,
+"wdth" 100,
+"GRAD" 0,
+"ROND" 0;
+
+}
+
+nav ul li:hover{
+border-bottom:1px solid rgb(224, 224, 224);
+transform: translateZ(10px) scale(1.1);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+background-color: #80c6ff;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; /* centers the items horizontally */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* spacing between links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(8, 9, 26); 
+    font-weight: bold;
+}
+form {
+    background: #c7c6c6;
+    padding: 30px 35px;
+    border-radius: 12px;
+    max-width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 26px;
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+
+form label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 600;
+    color: #444;
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.2s;
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74,144,226,0.4);
+
+}
+
+form button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+}
